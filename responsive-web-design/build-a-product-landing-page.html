@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaféCraft - Premium Coffee Subscription</title>
+    <link rel="stylesheet" href="styles/product-landing-page.css">
+</head>
+<body>
+    <header id="header">
+        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="CaféCraft Logo" id="header-img">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Artisanal Coffee Delivered to Your Door</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Enter your email address" 
+                    required
+                >
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </section>
+
+        <section id="features">
+            <div class="feature">
+                <div class="icon">☕</div>
+                <div class="feature-content">
+                    <h2>Premium Beans</h2>
+                    <p>Ethically sourced from the world's finest coffee regions.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">🚚</div>
+                <div class="feature-content">
+                    <h2>Free Shipping</h2>
+                    <p>Delivered fresh to your door within 48 hours of roasting.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="icon">🌱</div>
+                <div class="feature-content">
+                    <h2>Sustainable</h2>
+                    <p>100% compostable packaging and carbon-neutral delivery.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <iframe 
+                id="video"
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/y5UT04p5f7U"
+                title="Coffee Making Process"
+                frameborder="0" 
+                allowfullscreen
+            ></iframe>
+        </section>
+
+        <section id="pricing">
+            <h2>Choose Your Plan</h2>
+            <div class="pricing-container">
+                <div class="price-box">
+                    <h3>Starter</h3>
+                    <h2>$29/mo</h2>
+                    <ul>
+                        <li>2 bags monthly</li>
+                        <li>Standard shipping</li>
+                        <li>Basic brewing guide</li>
+                    </ul>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="price-box">
+                    <h3>Premium</h3>
+                    <h2>$49/mo</h2>
+                    <ul>
+                        <li>4 bags monthly</li>
+                        <li>Priority shipping</li>
+                        <li>Video brewing guides</li>
+                    </ul>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="price-box">
+                    <h3>Ultimate</h3>
+                    <h2>$89/mo</h2>
+                    <ul>
+                        <li>6 bags monthly</li>
+                        <li>Express shipping</li>
+                        <li>Personal coffee concierge</li>
+                    </ul>
+                    <button class="btn">Select</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AmirWebDev. All rights reserved.</p>
+    </footer>
+</body>
+</html>

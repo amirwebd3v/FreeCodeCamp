@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+#header-img {
+    height: 40px;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #8B4513;
+}
+
+/* Main Content */
+main {
+    margin-top: 80px;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f9f9f9;
+}
+
+/* Form Styles */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+#email {
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#submit {
+    padding: 0.8rem 2rem;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #6b3410;
+}
+
+/* Features Section */
+#features {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.feature {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2rem;
+    min-width: 70px;
+    text-align: center;
+}
+
+/* How It Works Section */
+#how-it-works {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#video {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.price-box {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.price-box ul {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.price-box li {
+    padding: 0.5rem 0;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6b3410;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #nav-bar {
+        margin-top: 1rem;
+    }
+
+    .feature {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-box {
+        width: 100%;
+    }
+}
