@@ -8,8 +8,11 @@
   ],
   "routes": [
     {
-      "src": "/$",
+      "src": "/",
       "dest": "/personal-portfolio-webpage.html"
+    },
+    {
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
