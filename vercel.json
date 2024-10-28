@@ -4,12 +4,20 @@
     {
       "src": "responsive-web-design/**/*",
       "use": "@vercel/static"
+    },
+    {
+      "src": "javascript-algorithms-and-data-structures/**/*",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/$",
       "dest": "/responsive-web-design/personal-portfolio-webpage.html"
+    },
+    {
+      "src": "/$",
+      "dest": "/javascript-algorithms-and-data-structures/index.html"
     }
   ]
 }
