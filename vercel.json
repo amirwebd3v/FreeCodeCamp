@@ -12,12 +12,20 @@
   ],
   "routes": [
     {
-      "src": "/$",
+      "src": "^/$",
       "dest": "/responsive-web-design/personal-portfolio-webpage.html"
     },
     {
-      "src": "/$",
-      "dest": "/javascript-algorithms-and-data-structures/index.html"
+      "src": "/responsive-web-design/(.*)",
+      "dest": "/responsive-web-design/$1"
+    },
+    {
+      "src": "/javascript-algorithms-and-data-structures/(.*)",
+      "dest": "/javascript-algorithms-and-data-structures/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/responsive-web-design/$1"
     }
   ]
 }
