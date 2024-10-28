@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles/pokémon-search.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon Search</h1>
+        
+        <input type="text" id="search-input" required placeholder="Enter Pokémon name or ID">
+        <button id="search-button">Search</button>
+
+        <div class="pokemon-info" id="pokemon-info">
+            <div class="pokemon-header">
+                <h2 id="pokemon-name"></h2>
+                <span id="pokemon-id"></span>
+            </div>
+
+            <div class="sprite-container">
+                <!-- Sprite will be inserted here -->
+            </div>
+
+            <div class="types-container">
+                <div id="types"></div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-label">Height:</span>
+                    <span id="height"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Weight:</span>
+                    <span id="weight"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">HP:</span>
+                    <span id="hp"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Attack:</span>
+                    <span id="attack"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Defense:</span>
+                    <span id="defense"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Special Attack:</span>
+                    <span id="special-attack"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Special Defense:</span>
+                    <span id="special-defense"></span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Speed:</span>
+                    <span id="speed"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/pokémon-search.js"></script>
+</body>
+</html>
