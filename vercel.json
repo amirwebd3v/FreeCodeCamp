@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "monorepo": true,
+  "builds": [
+    {
+      "src": "responsive-web-design/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/responsive-web-design/(.*)",
+      "dest": "/responsive-web-design/$1"
+    }
+  ]
+}
