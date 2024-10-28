@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "workspaces": [
-    "responsive-web-design"
+    "responsive-web-design",
+    "javascript-algorithms-and-data-structures"
   ]
 }
