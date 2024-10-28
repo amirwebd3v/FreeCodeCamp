@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/responsive-web-design/(.*)",
-      "dest": "/responsive-web-design/$1"
+      "src": "/$",
+      "dest": "/responsive-web-design/personal-portfolio-webpage.html"
     }
   ]
 }
