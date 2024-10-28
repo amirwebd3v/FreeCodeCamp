@@ -4,17 +4,17 @@ A collection of responsive web design projects completed as part of the freeCode
 
 ## 🌐 Live Demo
 
-All projects are deployed and can be viewed at: [https://free-code-camp-amirwebdevs-projects.vercel.app/](https://free-code-camp-amirwebdevs-projects.vercel.app/)
+All projects are deployed and can be viewed at: [https://free-code-camp-amirwebdevs-projects.vercel.app/](https://rwd-fcc-amirwebd3v.vercel.app/)
 
 ## 📂 Projects
 
 | Project | Description | Live Link |
 |---------|-------------|-----------|
-| Personal Portfolio | A responsive portfolio webpage showcasing my projects and skills | [View Portfolio](https://free-code-camp-amirwebdevs-projects.vercel.app/) |
-| Product Landing Page | A modern landing page for an artisanal coffee delivery service | [View Landing Page](https://free-code-camp-amirwebdevs-projects.vercel.app/product-landing-page.html) |
-| Technical Documentation | A comprehensive Python documentation page with clean navigation | [View Documentation](https://free-code-camp-amirwebdevs-projects.vercel.app/technical-documentation-page.html) |
-| Tribute Page | A tribute page dedicated to Ada Lovelace, the first computer programmer | [View Tribute](https://free-code-camp-amirwebdevs-projects.vercel.app/tribute-page.html) |
-| Survey Form | An interactive survey form with various input types | [View Survey](https://free-code-camp-amirwebdevs-projects.vercel.app/survey-form.html) |
+| Personal Portfolio | A responsive portfolio webpage showcasing my projects and skills | [View Portfolio](https://rwd-fcc-amirwebd3v.vercel.app/) |
+| Product Landing Page | A modern landing page for an artisanal coffee delivery service | [View Landing Page](https://rwd-fcc-amirwebd3v.vercel.app/responsive-web-design/product-landing-page.html) |
+| Technical Documentation | A comprehensive Python documentation page with clean navigation | [View Documentation](https://rwd-fcc-amirwebd3v.vercel.app/responsive-web-design/technical-documentation-page.html) |
+| Tribute Page | A tribute page dedicated to Ada Lovelace, the first computer programmer | [View Tribute](https://rwd-fcc-amirwebd3v.vercel.app/responsive-web-design/tribute-page.html) |
+| Survey Form | An interactive survey form with various input types | [View Survey](https://rwd-fcc-amirwebd3v.vercel.app/responsive-web-design/survey-form.html) |
 
 ## 🛠️ Technologies Used
 
@@ -47,7 +47,7 @@ To run these projects locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/freeCodeCamp.git
+git clone https://github.com/amirwebd3v/freeCodeCamp.git
 ```
 
 2. Navigate to the project directory:
